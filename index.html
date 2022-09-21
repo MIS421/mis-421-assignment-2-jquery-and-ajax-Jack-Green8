@@ -4,7 +4,7 @@
 
 <head>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <!--JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous"></script>
@@ -20,24 +20,26 @@
 
 <body>
     <div>
-        <script type="text/javascript" src="./script.js"></script>
+        <script type="text/javascript" src="./js/script.js"></script>
     </div>
 
     <header onload="pageRefresh()">Green Getter</header>
 
     <div id="searchBar">
-        <input type="text" id="query" name="query" placeholder="Enter search here"/>
+        <input type="text" id="query" name="query" placeholder="Enter search here" />
         <button type="button" id="searchButton" onclick="searchResults()">Search</button>
         <button type="button" id="timeButton" onclick="displayTime()">Show Time</button>
     </div>
 
     <div>
-        <br>
+        <br><br />
         <button type="button" onclick="changeBackground()">Change Background</button>
     </div>
 
     <div id="searchResults"></div>
     <div id="time"></div>
+
+    <h3>The coolest and greenest search engine out there!!</h3>
 
 </body>
 

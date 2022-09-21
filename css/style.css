@@ -18,6 +18,10 @@ header {
     color:white;
 }
 
+h3 {
+    color:turquoise;
+}
+
 #time {
     visibility: visible;
 }
@@ -28,20 +32,24 @@ header {
     border-radius: 25px;
 }
 
+.button {
+    margin: auto;
+    display: inline-block;
+    font-family: Courier New, Courier, monospace;
+    font-size: 15pt;
+    text-align: center;
+    background-color: limegreen;
+    color: white;
+}
+
 #searchbar {
     font-family: Courier New, Courier, monospace;
     font-size: 15pt;
     text-align: center;
     max-width: auto;
     margin: auto;
-}
-
-#searchbutton {
-    margin: auto;
-    display: inline-block;
-    font-family: Courier New, Courier, monospace;
-    font-size: 15pt;
-    text-align: center;
+    background-color: limegreen;
+    color: white;
 }
 
 #time{
